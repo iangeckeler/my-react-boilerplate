@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start-server": "webpack-dev-server --mode development --open",
+    "start": "webpack --mode development",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
